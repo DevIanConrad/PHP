@@ -1,0 +1,65 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+body>*:first-child{
+  align-self: stretch;
+}
+body .footerbg{
+  align-self: stretch;
+  background-color: #1f2021;
+  margin-bottom: -100px;
+  
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: rgba(0, 0, 0, .1);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.col{
+  color:white;
+  
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 30%;
+
+  margin: auto;
+}
+
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: 5%;
+
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 5%;
+ 
+}
+
+.forgot{
+  margin-left: 87px;
+  margin-bottom: 5%;
+}

@@ -1,0 +1,446 @@
+	*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1
+  {
+    font-weight: bold;
+    font-size:50px;
+    color:#F2AA4CFF;
+  }
+
+  h2
+  {
+    color:#F2AA4CFf;
+  }
+
+
+
+body
+{
+	margin:0px;
+  background-size: cover;
+  background-color: #101820FF;
+  background-repeat: no-repeat;
+  height:100%;
+  
+}
+
+ 	input[type=text] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-weight: bold;
+  background-color:black;
+  color:white;
+}
+
+input[type=text]:hover
+{
+  background-color: black;
+}
+
+input[type=number]{
+  width: 50%;
+  padding: 12px 20px;
+  padding-right: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-weight: bold;
+  background-color:black;
+  color:white;
+}
+
+input[type=number]:hover
+{
+  background-color: black;
+}
+
+
+select{
+  width: 25%;
+   padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+select option
+{
+  background-color:white;
+}
+
+select:hover
+{
+  background-color: #EEEADE;
+}
+
+
+ input[type=submit] {
+  
+  width: 20%;
+  background-color: #F2AA4CFF;
+  color: white;
+  padding: 15px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  color:#101820FF;
+}
+input[type=submit]:hover {
+  background-color: orange;
+
+}
+
+
+
+
+label{
+  color:white;
+}
+
+.numberInput  {
+  border-radius: 5px;
+  padding: 20 200px;
+   float: left;
+   width: 58%;
+   
+
+}
+
+ .input p
+{
+  color:white;
+  font-weight: bold;
+}
+.compute
+{
+  color:black;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 50%;
+    padding-left: 125px;
+    margin-top: 30px;
+  
+}
+
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-family: Gill Sans MT;
+    font-weight: bold;
+    font-size: 60px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover {
+    color: #ffd606;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.logo
+{
+  background-color:black;
+  background-attachment: fixed;
+}
+.footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    top:450px;
+    
+  }
+.footer p{
+  position:absolute;
+  font-size:21.2px;
+  margin-top:16px;
+  margin-left:34%;
+
+  
+}
+
+.finalAnswers
+{
+  font-weight: bold;
+  color: white;
+  font-size:20px;
+
+}
+
+.finalAnswers img
+{
+  width:200px;
+  height:200px;
+  margin-left: 140px;
+}
+
+ @media screen and (max-height: 768px) and (max-width: 1366px )  {
+  .footer p{
+  position:absolute;
+  font-size:21.2px;
+  margin-top:16px;
+}
+
+  .overlay-content {
+    position: relative;
+    top: 19.5%;
+    width: 100%;
+  padding-left: 175px;
+    margin-top: 30px;
+    margin-left:-5%;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-family: Gill Sans MT;
+    font-weight: bold;
+    font-size: 50px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+ }
+.con{
+  padding-top: 3%;
+  text-align: center;
+}
+
+.note
+{
+  font-weight: bold;
+  font-size:15px;
+  color:rgb(252, 249, 246);
+  
+}
+  
+.please 
+{
+  font-weight: bold;
+  font-size:15px;
+  color:rgb(252, 249, 246);
+  
+}
+
+.please2
+{
+  text-align: center;
+  font-weight: bold;
+  font-size:15px;
+  color:rgb(252, 249, 246);
+  
+}
+
+.shop
+{
+  font-weight: bold;
+  font-size:80px;
+  color:rgb(245, 143, 9);
+  padding-top: 8%;
+  padding-bottom: 10%;
+}
+.shop2
+{
+  font-weight: bold;
+  font-size:80px;
+  color:rgb(245, 143, 9);
+  padding-top: 2%;
+  padding-bottom: 3%;
+  padding-left: 28%;
+}
+.cato
+{
+  font-weight: bold;
+  font-size:40px;
+  color:rgb(228, 158, 66);
+  padding-bottom: 5%;
+  
+}
+.thank{
+  text-align: center;
+  font-weight: bold;
+  font-size:25px;
+  color:rgb(228, 158, 66);
+  padding-top: 10%;
+  padding-bottom: 2%;
+}
+
+.dedu
+{
+  font-weight: bold;
+  font-size:40px;
+  color:rgb(228, 158, 66);
+  padding-bottom: 0%;
+  padding-top: 5%;
+}
+
+
+.cat {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 0px solid rgb(233, 187, 37);
+  padding: 10px;
+}
+
+.shoppingcart {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 0px solid rgb(233, 187, 37);
+  padding: 10px;
+
+}
+
+
+.table {
+  margin: 100px;
+}
+
+.space {
+  opacity: 0;
+  border: 50px solid;
+  
+}
+
+.table{
+ margin-top: 0;
+ margin-bottom: 0;
+}
+
+.table2 {
+  margin: 100px;
+  
+  
+}
+
+.table3 {
+  margin: 15%;
+  margin-bottom: 0px;
+  border: 0%;
+  margin-top: 0;
+}
+
+.table4{
+  margin: 100px;
+  margin-left: 35%;
+  margin-bottom: 0;
+}
+
+.deduction{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 0px solid rgb(233, 187, 37);
+}
+.submitbtn {
+  margin-left: 0%;
+}
+
+
+.change{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 0px solid rgb(233, 187, 37);
+  padding: 10px;
+}
+
+
+.btnfinal {
+  
+  width: 20%;
+  background-color: #F2AA4CFF;
+  color: white;
+  padding: 15px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  color:#101820FF;
+}
+.btnfinal:hover {
+  background-color: orange;
+
+}
+
+.btnOrder {
+  
+  width: 20%;
+  background-color: #F2AA4CFF;
+  color: white;
+  padding: 15px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  color:#101820FF;
+}
+.btnOrder:hover {
+  background-color: orange;
+
+}
+
+
+input[type=reset] {
+  width: 20%;
+  background-color: #F2AA4CFF;
+  color: white;
+  padding: 15px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  color:#101820FF;
+}
+
+input[type=reset]:hover
+{
+  background-color: orange;
+
+}
